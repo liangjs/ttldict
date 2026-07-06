@@ -1,13 +1,14 @@
-[tool.poetry]
+[project]
 name = "ttldict"
 version = "0.1.0"
 description = "Python dictionary with TTL support"
-authors = ["Dongruixuan Li <dongruixuan@hotmail.com>", "liangjs <liangjs@pku.edu.cn>"]
+authors = [
+    { name = "Dongruixuan Li", email = "dongruixuan@hotmail.com" },
+    { name = "liangjs", email = "liangjs@pku.edu.cn" },
+]
 license = "MIT"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
+requires-python = ">=3.10"
 
 [build-system]
 requires = ["hatchling"]
